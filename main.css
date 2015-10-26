@@ -1,0 +1,57 @@
+
+body {
+	background-color: lightblue;
+	/*background-color: #e1b681;*/
+}
+
+
+input[type="search"] {
+	padding-left: 10px;
+	float: left;
+	border: 0;
+	width: 107%;
+	font-size: 0.6em;
+	line-height: 2em;
+}
+
+
+table {
+	font-weight: bold;
+	font-family: fantasy;
+	font-size: 140%;
+	border-color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.homeImage {
+	width: 900px;
+	height: 550px;
+	float: center;
+
+}
+
+.searchImage {
+	float: right;
+	margin-top: .1cm;
+	height: 30px;
+	width: 100px;
+	margin-right: -.45	cm;
+}
+
+.searchImage:hover {
+	background-color: red;
+}
+
+.referalIcons {
+	float: right;
+	margin:  0 2px;
+	width: 50px;
+	height: 50px;
+}

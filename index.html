@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>India Tourism</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"> <!-- For intranet testing only, remove in production. -->
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
@@ -30,24 +32,19 @@
 			</tc>
 		</table>
 	</div>
-
-	<center>
-	<div class="homePageImage">
-
-	<table>
-	<tc>
-		<td><img src="./images/tajmahal.jpg" class='homePageImage'></td></tc>
-		<td><img src="./images/goa.jpg" class='homePageImage'></td></tc>
-		<td><img src="./images/tajmumbai.jpg" class='homePageImage'></td></tc>
-		<td><img src="./images/varanasi.jpg" class='homePageImage'></td></tc>
-		<td><img src="./images/sikkim.jpg" class='homePageImage'></td></tc>
-	</table>
-
-	</div>
-	</center>
+<center>
+  <div id="slideShowImages">
+    <img class="homePageImage" src="./images/tajmahal.jpg" alt="Slide 1" />
+    <img class="homePageImage" src="./images/goa.jpg" alt="Slide 2" />
+    <img class="homePageImage" src="./images/tajmumbai.jpg" alt="Slide 3" />    
+    <img class="homePageImage" src="./images/varanasi.jpg" alt="Slide 4" />
+    <img class="homePageImage" src="./images/sikkim.jpg" alt="Slide 5" />
+  </div>  
+  <script src="./javascript/slideShow.js"></script>
+</center>
 <div align='center' style="padding:100px">
 		Copyright &copy Self Production by NABEEL & AKSHAY
-	</div>
+</div>
 	<footer><img src="./images/footer1.jpg"></footer>
 </body>
 </html>

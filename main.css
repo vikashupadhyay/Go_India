@@ -1,17 +1,18 @@
 
 body {
 	background-color: white;
-	/*background-color: #e1b681;*/
 }
-img[mainpage]{}
-
+.a {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
 .tagLine {
 	color: white;
 	font-size: .4em;
 	margin: 10px;
 	text-decoration: underline;
 }
-
 .header1 {
 	margin-top: -1.3em;
 	height: 40px;
@@ -24,7 +25,6 @@ img[mainpage]{}
 	background-size: 100%;
 	width: 1425px;
 }
-
 .googleIcon {
 	float: right;
 	margin-top: .1cm;
@@ -32,41 +32,33 @@ img[mainpage]{}
 	width: 100px;
 	margin-right: -.15cm;
 }
-
-
-
 table {
 	font-weight: bold;
 	font-family: fantasy;
 	font-size: 140%;
 	border-color: black;
 }
-
 a {
 	text-decoration: none;
 	opacity: 1;
 }
-
 a:hover {
 	border-bottom: 5px solid red; 
 }
-
 .homePageImage {
 	width: 1200px;
-	height: 550px;
+	height: 600px;
 	float: center;
 	overflow: auto;
 	/*padding-right: 450px;*/
 }
-
-
 .searchImage:hover {
 	background-color: red;
 }
-
 .referalIcons {
 	float: right;
 	margin:  0 2px;
-	width: 30px;
-	height: 30px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
 }

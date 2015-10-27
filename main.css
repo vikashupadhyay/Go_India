@@ -4,7 +4,7 @@ body {
 	position: relative;
 	background-color: #e1b681;
 }
-
+img[mainpage]{}
 
 .tagLine {
 	color: white;
@@ -22,6 +22,7 @@ body {
 .header2 {
 	height: 80px;
 	background-image: url(./images/header2.jpg);
+	background-size: 100%;
 	width: 1425px;
 }
 
@@ -52,11 +53,11 @@ a:hover {
 }
 
 .homePageImage {
-	width: 900px;
-	height: 650px;
+	width: 1200px;
+	height: 550px;
 	float: center;
 	overflow: auto;
-	padding-right: 450px;
+	/*padding-right: 450px;*/
 }
 
 
